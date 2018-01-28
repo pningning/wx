@@ -1,0 +1,305 @@
+/* pages/product/product.wxss */
+
+page {
+  padding-bottom: 98rpx;
+}
+
+.slider, .slider image, .slider swiper {
+  width: 100%;
+  height: 750rpx;
+}
+
+/*商品信息的模块  */
+
+.product_message {
+  box-sizing: border-box;
+  padding: 24rpx 24rpx 30rpx 24rpx;
+  background-color: #fff;
+  border-radius: 0 0 24rpx 24rpx;
+}
+/*取消边框圆角  */
+.radius {
+  border-radius: 0;
+}
+
+.product_message .pro_name {
+  line-height: 20px;
+  font-size: 16px;
+  color: #333;
+}
+
+.product_message .pro_describe {
+  font-size: 12px;
+  line-height: 22px;
+  color: #999;
+}
+
+.product_message  .pro_in {
+  padding-top: 10rpx;
+  /* line-height: 18px; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.product_message .pro_in .price {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.product_message .pro_in .sales {
+  font-size: 12px;
+  color: #999;
+}
+
+.server {
+  height: 80rpx;
+  font-size: 14px;
+  color: #999;
+  display: flex;
+  align-items: center;
+}
+
+.server .server_left {
+  margin: 0 54rpx 0 24rpx;
+}
+
+.server .server_right {
+  display: flex;
+  align-items: center;
+}
+
+.server .server_right .check {
+  margin-right: 20rpx;
+}
+
+.server .server_right .check image {
+  width: 24rpx;
+  height: 24rpx;
+  margin-right: 10rpx;
+  vertical-align: middle;
+}
+
+.deliver {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  /* margin: 24rpx 24rpx 20rpx 24rpx; */
+  padding-top: 24rpx;
+  padding-bottom: 20rpx;
+}
+
+.deliver_left {
+  flex: 1;
+}
+
+.deliver_left .location {
+  display: flex;
+  align-items: center;
+}
+
+.deliver_left .location .loc_left {
+  color: #999;
+  margin-right: 24rpx;
+}
+
+.deliver_left .location .loc_img {
+  width: 24rpx;
+  height: 24rpx;
+  vertical-align: middle;
+  margin-right: 10rpx;
+}
+
+.deliver_left .location .loc_right {
+  color: #333;
+}
+
+.deliver_left .way {
+  margin-top: 24rpx;
+  color: #999;
+}
+
+.deliver_left .way .way_left {
+  margin-left: 106rpx;
+  margin-right: 28rpx;
+}
+
+.deliver_left .way .way_hb {
+  font-weight: 600;
+  margin-left: 4px;
+  letter-spacing: 4px;
+}
+
+.deliver_img  image {
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.size {
+  height: 96rpx;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+
+.size .size_left {
+  margin: 0 50rpx 0 24rpx;
+}
+
+.size .size_box {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.size_margin10 {
+  margin: 0 10rpx;
+}
+
+.size_normal {
+  flex: 1;
+  height: 60rpx;
+  line-height: 60rpx;
+  background-color: #f2f4ff;
+  border-radius: 8rpx;
+}
+
+.size_none {
+  width: 158rpx;
+  height: 96rpx;
+}
+
+
+
+.num_text {
+  margin-right: 40rpx;
+}
+
+.font_size20 {
+  font-size: 20px;
+}
+
+.font_size24 {
+  font-size: 24px;
+}
+
+.color_f7 {
+  background-color: #f7f7f7;
+}
+
+.color_F0 {
+  background-color: #f0f0f0;
+}
+
+.evaluation {
+  justify-content: space-between;
+}
+
+.per {
+  margin-right: 10rpx;
+}
+
+/*评论部分  */
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  padding-top: 32rpx;
+  padding-bottom: 28rpx;
+}
+
+.comment .comm_person {
+  margin-right: 12rpx;
+}
+
+.cimm_start {
+  width: 24rpx;
+  height: 24rpx;
+  vertical-align: middle;
+  margin-right: 6rpx;
+}
+
+.comm_content {
+  margin: 32rpx 0;
+  line-height: 20px;
+}
+
+.total {
+  flex: 1;
+}
+
+.parameter {
+  flex: 1;
+  text-align: center;
+}
+
+.car {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 98rpx;
+  width: 100%;
+  z-index: 9999;
+}
+
+.share {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 120rpx;
+  height: 100%;
+  background-color: #e0e0e0;
+}
+
+.share image {
+  width: 44rpx;
+  height: 44rpx;
+}
+
+.share text {
+  color: #666;
+  font-size: 12px;
+}
+
+.cart_in {
+  flex: 1;
+  height: 100%;
+  z-index: 999999;
+  color: #fff;
+}
+
+.cart_left {
+  text-align: center;
+  height: 100%;
+  flex: 1;
+  background-color: #ff2e51;
+  line-height: 98rpx;
+}
+
+.cart_right {
+  flex: 1;
+  height: 100%;
+  text-align: center;
+  line-height: 98rpx;
+}
+
+/*点击的时候背景颜色的设置  */
+
+.cart_left .other-navigator-hover {
+  background-color: #ffb561;
+}
+
+.cart_right .other-navigator-hover {
+  background-color: #fa6649;
+}
+
+/*购物车的选中状态  */
+.size_active {
+  color: #fff;
+  background-color: #3b4ca9;
+}
+.pro_active {
+  color: #3b4ca9;
+}

@@ -1,0 +1,107 @@
+/* pages/shopList/shopList.wxss */
+page {
+   padding-bottom: 96rpx;
+}
+.cart_loca {
+  height: 88rpx;
+}
+.cart_loca image {
+  width: 28rpx;
+  height: 28rpx;
+  margin-right: 24rpx;
+}
+.cart_loca .city {
+  flex: 1;
+}
+.edit {
+  height: 88rpx;
+  line-height: 88rpx;
+}
+.cart_pro {
+  padding: 30rpx 0;
+  position: relative;
+  margin-left: 30rpx;
+}
+.checkbox_hidden {
+   opacity: 0;   
+   margin: 0;
+   width: 40rpx;
+   height: 40rpx;
+}
+.checkbox_img {
+  width: 40rpx;
+  height: 40rpx;
+  position: absolute;
+  
+}
+.check_all {
+  top: 20rpx;
+}
+.cart_pro .cart_img {
+  width: 180rpx;
+  height: 180rpx;
+  margin: 0 30rpx;
+}
+.cart_message {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.color_f7 {
+  background-color: #F7F7F7;
+}
+.color_F0 {
+  background-color: #F0F0F0; 
+}
+.pro_number {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.line {
+  line-height: 30px;
+}
+
+.settle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 0;
+  /* width: 100%; */
+   width: 750rpx;
+   box-sizing: border-box; 
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #fff;
+  z-index: 100000;
+  padding-left: 30rpx;
+  height: 96rpx;
+}
+.sittle_right {
+  display: flex;
+  align-items: center;
+}
+.settle_money {
+  font-size: 18px;
+  font-weight: 600;
+}
+.settle_btn {
+  width: 280rpx;
+  height: 96rpx;
+  color: #fff;
+  line-height: 96rpx;
+  text-align: center;
+  margin-left: 20rpx;
+}
+/* 点击编辑显示的时候添加的类  */
+.edit_none {
+   display: none; 
+}
+.del {
+  width: 160rpx;
+  margin-right: 24rpx;
+  line-height: 60rpx;
+  border-radius: 30rpx;
+  text-align: center;
+}

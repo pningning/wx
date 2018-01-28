@@ -1,0 +1,40 @@
+<!--pages/my/my.wxml-->
+  <view class="head">
+    <view class="head_top">
+      <image class="top_img" src="/assets/images/touxiang.png"></image>
+       <image class="top_more" src="/assets/images/txmore.png"></image> 
+    </view>
+    <text class="tile">152*****1056</text>
+  </view>
+  <view class="mg_top10"></view>
+  <view class="prof_message">
+    <view class="order">
+      <image class="msg_order" src="/assets/images/Order.png"></image>
+      <text class="msg_text">我的订单</text>
+      <image class="msg_more" src="/assets/images/more.png"></image>
+    </view>
+    <view class="public_line"></view>
+    <view class="order">
+      <image class="msg_order" src="/assets/images/address.png"></image>
+      <text class="msg_text">收货地址</text>
+      <image class="msg_more" src="/assets/images/more.png"></image>
+    </view>
+    <view class="mg_top10"></view>
+    <view class="order">
+      <image class="msg_order" src="/assets/images/Coupon.png"></image>
+      <text class="msg_text">优惠券</text>
+      <image class="msg_more" src="/assets/images/more.png"></image>
+    </view>
+    <view class="public_line"></view>
+    <view class="order">
+      <image class="msg_order" src="/assets/images/feedback.png"></image>
+      <text class="msg_text">客服/反馈</text>
+      <image class="msg_more" src="/assets/images/more.png"></image>
+    </view>
+    <view class="public_line"></view>
+    <view class="order">
+      <image class="msg_order" src="/assets/images/adviser.png"></image>
+      <text class="msg_text">健康顾问</text>
+      <image class="msg_more" src="/assets/images/more.png"></image>
+    </view>
+  </view>

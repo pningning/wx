@@ -1,0 +1,49 @@
+<!--index.wxml-->
+<view class="container">
+<view class="header">
+<view class="header_view">
+     <image class="header_img" src="/assets/images/sign.png" mode="aspectFill"></image> 
+     <text class="header_text">我的透析码</text> 
+  </view>
+  <view class="header_view">
+     <image class="header_img" src="/assets/images/pabu.png" mode="aspectFill"></image> 
+     <text class="header_text">营养评估</text> 
+  </view>
+  <view class="header_view">
+     <image class="header_img" src="/assets/images/ticket.png" mode="aspectFill"></image> 
+     <text class="header_text">领优惠券</text> 
+  </view>
+</view>
+  <view class="new_product">
+    <text>人气商品</text>
+    <view class="line"></view>
+  </view>
+  <view class="product">
+    <view class="product_view">
+      <navigator class="product_img" url="/pages/product/product" hover-class="other-navigator-hover">
+        <image src="/assets/images/pro01.png" mode="aspectFill"></image>
+      </navigator>
+      <view class="product_message">
+        <view class="pro_name">亨博士 蛋白质粉480g/桶 蛋白粉中老年人营养保健品 蛋白质粉 480g/桶</view>
+        <text class="pro_describe">富含乳清蛋白和大豆分离蛋白 营养新组合</text>
+        <view class="pro_in">
+          <text class="price font_cofa6">￥288</text>
+          <text class="sales">已售: 4022</text>
+        </view>
+      </view>
+    </view>
+    <view class="product_view">
+      <navigator class="product_img" url="/pages/product/product">
+        <image src="/assets/images/pro01.png" mode="aspectFill"></image>
+      </navigator>
+      <view class="product_message">
+        <view class="pro_name">商品名称商品名称商品名称商品名称商品名称</view>
+        <text class="pro_describe">商品简单描述商品简单描述商品简单描述商品简单描述</text>
+        <view class="pro_in">
+          <text class="price font_cofa6">￥288</text>
+          <text class="sales">已售: 4022</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

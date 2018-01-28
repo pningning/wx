@@ -1,0 +1,117 @@
+/**app.wxss**/
+ .container {
+   background-color: #f2f4fa; 
+} 
+page {
+  background-color: #f2f3f7; 
+}
+/*左右的边距  */
+.mg_24 {
+  margin-left: 24rpx;
+  margin-right: 24rpx;
+}
+.pad_24 {
+  padding: 0 24rpx;
+}
+.mg_30 {
+  margin-left: 30rpx;
+}
+/*间隔  */
+.mg_top10 {
+   width: 100%;
+   height: 20rpx;
+   background-color: #f2f3f7;
+ }
+ /*通屏线  */
+ .public_line {
+   width: 100%;
+   height: 1rpx;
+   background-color: #f0f0f0;
+ }
+ /*半截线  */
+ .public_line02 {
+   /* width: 100%; */
+   margin-left: 24rpx;
+   height: 1rpx;
+   background-color: #f0f0f0;
+ }
+  /*居中  */
+ .center {
+   display: flex;
+   align-items: center;
+ }
+ /*公共箭头的样式  */
+  .arrows {
+   width: 40rpx;
+   height: 40rpx;
+ }
+ .height_80 {
+   height: 80rpx;
+ }
+ /*共用的字体颜色  */
+ .font_co333 {
+   color: #333;
+ }
+  .font_co999 {
+   color: #999;
+ }
+ .font_cofa6 {
+   color: #FF2E51;
+ }
+ .font_cofff {
+   color: #fff;
+ }
+ .font_co3b {
+   color: #3b4ca9;
+ }
+ /*共用的字体大小  */
+ .font_si14 {
+   font-size: 14px;
+ }
+ .font_si12 {
+   font-size: 12px;
+ }
+ .font_si10 {
+   font-size: 10px;
+ }
+ .font_wt {
+   font-weight: 600;
+ }
+ .font_si18 {
+   font-size: 18px;
+ }
+ /*公共的颜色  */
+ .public_bgc {
+   background-color: #3b4ca9;
+ }
+ .public_bgc3b {
+    background-color: #3b4ca9;
+ }
+  .public_white {
+   background-color: #fff;
+ }
+
+ /*购物车数量加减  */
+ .stepper {
+  line-height: 60rpx;
+}
+.stepper input {
+  width: 76rpx;
+  height: 60rpx;
+  text-align: center;
+   background-color: #F0F0F0;  
+  margin: 0 2rpx;
+   z-index: 1; 
+}
+.stepper image {
+  width: 66rpx;
+  height: 60rpx;
+  text-align: center;
+}
+.stepper .step_left {
+  border-radius: 8rpx 0 0 8rpx;
+}
+.stepper .step_right {
+  border-radius: 0 8rpx 8rpx 0;
+}
+

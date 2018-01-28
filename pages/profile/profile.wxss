@@ -1,0 +1,58 @@
+/* pages/my/my.wxss */
+.head {
+  width: 100%;
+  height: 384rpx;
+  background-color: #3b4ca9;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 80rpx;
+}
+.head_top {
+  height: 120rpx;
+  text-align: center;
+  box-sizing: border-box;
+  margin-bottom: 30rpx;
+  position: relative;
+}
+.head_top .top_img {
+  width: 120rpx;
+  height: 120rpx;
+  vertical-align: middle;
+}
+.head_top .top_more {
+  width: 40rpx;
+  height: 40rpx;
+  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  right: 32rpx;
+  margin-top: -20rpx;
+}
+.head .tile {
+  font-size: 18px;
+  color: #fff;
+}
+.order {
+  display: flex;
+  height: 100rpx;
+  align-items: center;
+  padding-left: 30rpx;
+  background-color: #fff;
+}
+.msg_text {
+  font-size: 14px;
+  color: #333;
+  flex: 0.945;
+  padding-right: 30rpx;
+  display: inline-block;
+  vertical-align: middle;
+}
+.msg_order,
+.msg_more {
+  width: 40rpx;
+  height: 40rpx;
+  vertical-align: middle;
+}
+.msg_order {
+  margin-right: 32rpx;
+}

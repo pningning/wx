@@ -1,0 +1,130 @@
+<!--pages/product/product.wxml-->
+<!--轮播图  -->
+<view class="slider">
+  <swiper indicator-dots="true" autoplay="{{ true }}" interval="2500" duration="400" circular>
+    <swiper-item>
+      <image src="https://m.360buyimg.com/n12/jfs/t5914/183/8591552455/148480/16f52543/5989d793Nef6f164a.jpg!q70.jpg" width="375" height="150" mode="aspectFill" />
+    </swiper-item>
+    <swiper-item>
+      <image src="https://m.360buyimg.com/n0/jfs/t5308/215/1833506326/156672/6db90f7a/59148bf2Na113ffb1.jpg!q70.jpg" width="375" height="150" mode="aspectFill" />
+    </swiper-item>
+    <swiper-item>
+      <image src="https://m.360buyimg.com/n0/jfs/t5080/359/1821252739/158720/fb3027e0/59148bffN8b408bbf.jpg!q70.jpg" width="375" height="150" mode="aspectFill" />
+    </swiper-item>
+  </swiper>
+</view>
+<view class="product_message public_white radius">
+  <view class="pro_name">亨博士 蛋白质粉480g/桶 蛋白粉中老年人营养保健品 蛋白质粉 480g/桶</view>
+  <text class="pro_describe">富含乳清蛋白和大豆分离蛋白 营养新组合</text>
+  <view class="pro_in">
+    <text class="price font_cofa6">￥288</text>
+    <text class="sales">已售: 4022</text>
+  </view>
+</view>
+<view class="public_line"></view>
+<view class="server public_white">
+  <text class="server_left">服务</text>
+  <view class="server_right">
+    <view class="check">
+      <image src="/assets/images/check.png"></image>
+      <text>全国联保</text>
+    </view>
+    <view class="check">
+      <image src="/assets/images/check.png"></image>
+      <text>货到付款</text>
+    </view>
+    <view class="check">
+      <image src="/assets/images/check.png"></image>
+      <text>万邦医药指定营销</text>
+    </view>
+  </view>
+</view>
+<view class="mg_top10"></view>
+<!--送货地址部分  -->
+<view class="deliver public_white pad_24">
+  <view class="deliver_left">
+    <view class="location">
+      <text class="loc_left">送货至</text>
+      <image class="loc_img" src="/assets/images/loca.png"></image>
+      <navigator class="loc_right">
+        <text>北京市\t</text>
+        <text>朝阳区</text>
+      </navigator>
+    </view>
+    <view class="way">
+      <text class="way_left font_cofa6">有货</text>
+      <text>由<text class="way_hb">惠邦</text>配送并提供保障</text>
+    </view>
+  </view>
+  <view class="deliver_img">
+    <image src="/assets/images/more.png"></image>
+  </view>
+</view>
+<view class="mg_top10"></view>
+<view class="public_line"></view>
+<!--药品规格部分  -->
+<view class="size public_white">
+  <text class="size_left">规格</text>
+  <view class="size_box">
+    <view class="size_normal size_active public_bgc">大盒(24粒)</view>
+    <view class="size_normal size_margin10">大盒(24粒)</view>
+    <view class="size_normal">大盒(24粒)</view>
+  </view>
+  <view class="size_none"></view>
+</view>
+<view class="public_line02"></view>
+<!--商品数量部分  -->
+<view class="height_80 font_si14 font_co999 center public_white pad_24">
+  <text class="num_text">数量</text>
+  <view class="center stepper">
+    <image class="font_size24 step_left color_f7" src="/assets/images/jian01.png">-</image>
+    <input value="1" class="font_co333"></input>
+    <image class="font_size20 step_right color_F0" src="/assets/images/jia.png">+</image>
+  </view>
+</view>
+<view class="mg_top10"></view>
+<view class="public_line"></view>
+<view class="height_80 center evaluation public_white pad_24">
+  <text class="font_co333 font_si14">客户评价</text>
+  <view>
+    <text class="per font_si14 font_cofa6">96.5%</text>
+    <text class="font_co999 font_si12">好评</text>
+  </view>
+</view>
+<view class="public_line"></view>
+<view class="comment pad_24 public_white">
+  <view class="comm_user center">
+    <text class="comm_person font_si12 font_co999">小南同学</text>
+    <image class="cimm_start" src="/assets/images/start02.png"></image>
+    <image class="cimm_start" src="/assets/images/start02.png"></image>
+    <image class="cimm_start" src="/assets/images/start02.png"></image>
+  </view>
+  <text class="comm_content font_si14 font_co333">商品使用效果很好，可以说是货真价实！配送速度也很给力，五星好评！！！</text>
+  <view class="comm_message font_si12 font_co999">
+    <text>2017-12-26</text>\t|
+    <text>大盒X12</text>
+  </view>
+</view>
+<view class="public_line02"></view>
+<view class="pad_24 font_si12 font_co999 center height_80 public_white">
+  <text class="total">共评论420条</text>
+  <view class="center">
+    <text>更多评论</text>
+    <image class="arrows" src="/assets/images/more.png"></image>
+  </view>
+</view>
+<view class="mg_top10"></view>
+<view class="height_80 font_14 font_co333 center public_white">
+  <text class="pro_active parameter">商品详情</text>
+  <text class="parameter">商品参数</text>
+</view>
+<view class="car center">
+  <view class="share">
+    <image src="/assets/images/fenx.png"></image>
+    <text>分享</text>
+  </view>
+  <view class="cart_in center">
+    <navigator class="cart_left" url="/pages/shopList/shopList" hover-class="other-navigator-hover">加入购物车</navigator>
+    <navigator class="public_bgc cart_right" open-type="switchTab" url="/pages/shopList/shopList" hover-class="other-navigator-hover">立即购买</navigator>
+  </view>
+</view>

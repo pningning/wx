@@ -1,0 +1,127 @@
+<!--pages/shopList/shopList.wxml-->
+<view>
+  <view class="pad_24 cart_loca font_si14 font_co999 center public_white">
+    <image src="/assets/images/loca.png"></image>
+    <text class="city">北京市\t朝阳区</text>
+   <text class="font_co3b edit" bindtap="editFun">编辑商品</text>
+    <!-- <text class="font_cofa6 edit" bindtap="editFun">编辑商品</text> -->
+    <!-- <text class="font_cofa6 edit" bindtap="editFun">完成</text> -->
+  </view>
+  <view class="mg_top10"></view>
+  <view class="public_white">
+    <view class="public_line02"></view>
+    <view class="cart_pro mg_24 center">
+      <image class="checkbox_img" src="/assets/images/checkbox01.png"></image>
+      <checkbox-group class="checkbox_hidden" bindchange="checkboxChange">
+        <label class="checkbox">
+          <checkbox value="" checked="" />
+        </label>
+      </checkbox-group>
+      <image class="cart_img" src="/assets/images/pro.png"></image>
+      <view class="cart_message">
+        <text class="font_si14 font_co333">亨博士 蛋白质粉480g/桶 蛋白粉中老年人营养保健品</text>
+        <text class="font_si12 font_co999 line">蛋白质富含乳清蛋白和大豆分离蛋白</text>
+        <view class="pro_number">
+          <text class="font_12 font_cofa6 font_wt">￥288</text>
+          <view class="center stepper">
+            <image class="font_size24 step_left color_f7" src="/assets/images/jian01.png">-</image>
+            <input value="1" class="font_co333"></input>
+            <image class="font_size20 step_right color_F0" src="/assets/images/jia.png">+</image>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="public_white">
+    <view class="public_line02"></view>
+    <view class="cart_pro mg_24 center">
+      <image class="checkbox_img" src="/assets/images/checkbox01.png"></image>
+      <checkbox-group class="checkbox_hidden" bindchange="checkboxChange">
+        <label class="checkbox">
+          <checkbox value="" checked="" />
+        </label>
+      </checkbox-group>
+      <image class="cart_img" src="/assets/images/pro.png"></image>
+      <view class="cart_message">
+        <text class="font_si14 font_co333">亨博士 蛋白质粉480g/桶 蛋白粉中老年人营养保健品</text>
+        <text class="font_si12 font_co999 line">蛋白质富含乳清蛋白和大豆分离蛋白</text>
+        <view class="pro_number">
+          <text class="font_12 font_cofa6 font_wt">￥288</text>
+          <view class="center stepper">
+            <image class="font_size24 step_left color_f7" src="/assets/images/jian01.png">-</image>
+            <input value="1" class="font_co333"></input>
+            <image class="font_size20 step_right color_F0" src="/assets/images/jia.png">+</image>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="public_white">
+    <view class="public_line02"></view>
+    <view class="cart_pro mg_24 center">
+      <image class="checkbox_img" src="/assets/images/checkbox01.png"></image>
+      <checkbox-group class="checkbox_hidden" bindchange="checkboxChange">
+        <label class="checkbox">
+          <checkbox value="" checked="" />
+        </label>
+      </checkbox-group>
+      <image class="cart_img" src="/assets/images/pro.png"></image>
+      <view class="cart_message">
+        <text class="font_si14 font_co333">亨博士 蛋白质粉480g/桶 蛋白粉中老年人营养保健品</text>
+        <text class="font_si12 font_co999 line">蛋白质富含乳清蛋白和大豆分离蛋白</text>
+        <view class="pro_number">
+          <text class="font_12 font_cofa6 font_wt">￥288</text>
+          <view class="center stepper">
+            <image class="font_size24 step_left color_f7" src="/assets/images/jian01.png">-</image>
+            <input value="1" class="font_co333"></input>
+            <image class="font_size20 step_right color_F0" src="/assets/images/jia.png">+</image>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="public_white">
+    <view class="public_line02"></view>
+    <view class="cart_pro mg_24 center">
+      <image class="checkbox_img" src="/assets/images/checkbox01.png"></image>
+      <checkbox-group class="checkbox_hidden" bindchange="checkboxChange">
+        <label class="checkbox">
+          <checkbox value="" checked="" />
+        </label>
+      </checkbox-group>
+      <image class="cart_img" src="/assets/images/pro.png"></image>
+      <view class="cart_message">
+        <text class="font_si14 font_co333">亨博士 蛋白质粉480g/桶 蛋白粉中老年人营养保健品</text>
+        <text class="font_si12 font_co999 line">蛋白质富含乳清蛋白和大豆分离蛋白</text>
+        <view class="pro_number">
+          <text class="font_12 font_cofa6 font_wt">￥288</text>
+         <view class="center stepper">
+            <image class="font_size24 step_left color_f7" src="/assets/images/jian01.png">-</image>
+            <input value="1" class="font_co333"></input>
+            <image class="font_size20 step_right color_F0" src="/assets/images/jia.png">+</image>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="public_line"></view>
+  <view class="pad_24 settle">
+    <view>
+      <image class="checkbox_img check_all" src="/assets/images/checkbox01.png"></image>
+      <checkbox-group class="checkbox_hidden" bindchange="checkboxChange">
+        <label class="checkbox">
+          <checkbox value="" checked="" />
+        </label>
+      </checkbox-group>
+      <text class="font_si10 font_co999">全选</text>
+    </view>
+    <view class="edit_none">
+      <view class="sittle_right">
+        <text>共计：</text>\t
+        <text class="font_cofa6 settle_money">￥2888.50</text>
+        <view class="settle_btn public_bgc">去结算</view>
+      </view>
+    </view>
+     <view class="font_cofff public_bgc3b del">删除</view> 
+  </view>
+</view>
